@@ -90,8 +90,8 @@ Any kind of positive contribution is welcome! Please help us to grow by contribu
 
 # 🙏 Support
 
-<a href="https://www.buymeacoffee.com/greenroots">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50px">
+<a href="https://paypal.me/atreyadiwas">
+    Paypal
 </a>
 
 ---
