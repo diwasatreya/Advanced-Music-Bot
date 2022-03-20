@@ -72,15 +72,15 @@ node index.js # or npm start
 That's All!!!
 
 # 🛡️ License
-This project is licensed under the MIT License - see the [`LICENSE`](LICENSE) file for details.
+This project is licensed under the Apache-2.0 License - see the [`LICENSE`](LICENSE) file for details.
 
 # 🦄 Upcoming Features
 `Advanced Music Bot` has all the potentials to grow further. Here are some of the upcoming features planned(not in any order),
 
-- ✔️ Moderation.
-- ✔️ Anime.
-- ✔️ Fun.
-- ✔️ .....
+-  Moderation.
+-  Anime.
+-  Fun.
+-  Much more
 
 If you find something is missing, `Advanced Music Bot` is listening. Please create a feature request [from here](https://github.com/diwasatreya/Advanced-Music-Bot/issues/).
 
