@@ -1,5 +1,5 @@
 # Advanced Music Bot
-
+https://discord.gg/whJeF4mDAX
 <h4 align="center">Make sure to star and fork repo!</h4>
 
 
@@ -31,7 +31,7 @@ Please access `Advanced Music Bot` using the URL:
 ## 🏗️ Spotify, apple music and other
 - It can also play song from these platforms
 
-# 🏗️ How to Set up `Advanced Music Bot` for Development?
+# 🏗️ How to Set up `Advanced Music Bot`
 
 1. Clone the repository
 
