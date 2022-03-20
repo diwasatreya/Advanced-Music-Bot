@@ -31,6 +31,9 @@ Please access `Advanced Music Bot` using the URL:
 ## 🏗️ Spotify, apple music and other
 - It can also play song from these platforms
 
+## Playlist
+- You can save song in your custom playlist and you can play it or remove it.
+
 # 🏗️ How to Set up `Advanced Music Bot`
 
 1. Clone the repository
