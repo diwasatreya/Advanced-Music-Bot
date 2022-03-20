@@ -1,0 +1,46 @@
+{
+  "name": "advanced-music-bot",
+  "version": "1.0.1",
+  "description": "It is an advance type of discord music bot which plays high quality of music with spotify, apple music support . You can save your songs and play it. It also has DJ mode system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diwasatreya/Advanced-Music-Bot.git"
+  },
+  "keywords": [
+    "music",
+    "spotify",
+    "mongo"
+  ],
+  "author": "Supreme#2401",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diwasatreya/Advanced-Music-Bot/issues"
+  },
+  "homepage": "https://github.com/diwasatreya/Advanced-Music-Bot#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.7.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "bufferutil": "^4.0.5",
+    "canvas": "^2.8.0",
+    "canvas-constructor": "^4.1.0",
+    "chalk": "^4.0.0",
+    "discord-api-types": "^0.26.0",
+    "discord-music-player": "^8.3.1",
+    "discord.js": "^13.4.0",
+    "discordjs-button-pagination": "^2.0.1",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "glob": "^7.2.0",
+    "moment": "^2.29.1",
+    "mongoose": "^6.1.3",
+    "pretty-ms": "^7.0.1",
+    "seconds-formater": "^1.2.0",
+    "utf-8-validate": "^5.0.7",
+    "util": "^0.12.4",
+    "ytdl-core": "^4.11.0"
+  }
+}
