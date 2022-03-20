@@ -83,7 +83,7 @@ If you find something is missing, `Advanced Music Bot` is listening. Please crea
 
 # 🏃‍♀️ Deploy
 
-[Replit]()
+[![image](https://camo.githubusercontent.com/807ef293459e367b2769d7b590e00f31e35d6b2e1c7bc4f570e37abbc3650f3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f5a65726f446973636f72642f4769766561776179426f74)](https://repl.it/github/diwasatreya/Advanced-Music-Bot)
 
 # 🤝 Contributing to `Advanced Music Bot`
 Any kind of positive contribution is welcome! Please help us to grow by contributing to the project.
