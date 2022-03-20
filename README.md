@@ -97,6 +97,7 @@ Any kind of positive contribution is welcome! Please help us to grow by contribu
 ---
 
 # Command Handler
+- Credit goes to him also
 - Command Handler Made By [elbkr](https://github.com/elbkr)
 
 <h3 align="center">
