@@ -1,5 +1,5 @@
 # Advanced Music Bot
-[See Image Preview](https://github.com/diwasatreya/Advanced-Music-Bot/blob/main/IMAGES.md)
+<h4 align="center">[See Image Preview](https://github.com/diwasatreya/Advanced-Music-Bot/blob/main/IMAGES.md)</h4>
 <h4 align="center">Make sure to star and fork repo!</h4>
 
 
