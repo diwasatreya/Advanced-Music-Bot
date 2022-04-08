@@ -21,7 +21,7 @@ Liked it? Please follow me on github <b>[diwasatreya](https://github.com/diwasat
 
 [![Stargazers repo roster for @atapas/model-repo](https://reporoster.com/stars/diwasatreya/Advanced-Music-Bot)](https://github.com/diwasatreya/Advanced-Music-Bot/stargazers)
 
-# 💻 Use Model Repo
+# 💻 Use Repo
 Please access `Advanced Music Bot` using the URL:
 
 > https://github.com/diwasatreya/Advanced-Music-Bot
