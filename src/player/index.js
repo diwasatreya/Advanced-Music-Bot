@@ -30,6 +30,3 @@ async function player(client) {
 }
 
 module.exports = player;
-// \n${
-//         error.message ? error + "\n\n" + error.message : error
-//       }
