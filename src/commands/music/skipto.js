@@ -17,6 +17,22 @@ module.exports = class SkipTo extends Interaction {
 
   async exec(int, data) {
 
+    const { MessageActionRow, MessageButton } = require("discord.js");
+    const btn1 = new MessageButton()
+          .setLabel("Support")
+            .setEmoji(`954350666539753512`)
+          .setStyle("LINK")
+              .setURL(`https://discord.gg/whJeF4mDAX`);
+    
+        const btn2 = new MessageButton()
+          .setLabel("Invite")
+          .setStyle("LINK")
+          .setEmoji(`954610269609394187`)
+              .setURL(`https://discord.com/api/oauth2/authorize?client_id=${this.client.user.id}&permissions=8&scope=bot%20applications.commands`);
+    
+    let buttonList = [btn1, btn2];
+    const row = new MessageActionRow().addComponents(buttonList);
+
 const novc = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremenomusic")} **You should be in a voice channel!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://diwasatreya.tech/github)`)
   .setColor(`#FFFFFF`);
 
