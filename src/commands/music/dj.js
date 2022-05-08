@@ -118,13 +118,13 @@ const djremove = new MessageEmbed() .setDescription(`${this.client.emotes.get("s
               ephemeral: true,
             });
 
-          let emb = new MessageEmbed()
+          let emb = new MessageEmbed()  // edit embed 
             .setTitle("DJ Roles list")
             .setColor("#FFFFFF")
             .setDescription(`${djs.map((m) => `<@&${m}>`).join(" ")}`)
             .setTimestamp();
 
-          return int.reply({ embeds: [emb] });
+          return int.reply({ embeds: [emb] }); //send embed message
         }
     }
 };
