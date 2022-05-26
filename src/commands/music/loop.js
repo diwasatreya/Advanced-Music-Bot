@@ -50,26 +50,26 @@ let buttonList = [btn1, btn2];
 const row = new MessageActionRow().addComponents(buttonList);
 
     
-const novc = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremenomusic")} **You should be in a voice channel!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://diwasatreya.tech/github)`)
+const novc = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremenomusic")} **You should be in a voice channel!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://aromaxdev.xyz/github)`)
   .setColor(`#FFFFFF`);
 
-      const novcs = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremenomusic")} **You should be in a my voice channel!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://diwasatreya.tech/github)`)
+      const novcs = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremenomusic")} **You should be in a my voice channel!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://aromaxdev.xyz/github)`)
   .setColor(`#FFFFFF`);
 
-      const nodj = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremedj")} **You should be a DJ or Alone in Voice Channel!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://diwasatreya.tech/github)`)
+      const nodj = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremedj")} **You should be a DJ or Alone in Voice Channel!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://aromaxdev.xyz/github)`)
   .setColor(`#FFFFFF`);
       
-      const nomusic = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremenomusic")} **Nothing is playing in this server!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Use: \`/play\` [song/url](https://diwasatreya.tech/github) to play a music.`)
+      const nomusic = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremenomusic")} **Nothing is playing in this server!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Use: \`/play\` [song/url](https://aromaxdev.xyz/github) to play a music.`)
   .setColor(`#FFFFFF`);
 
 
-       const ltrack = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeloop")} **Loop is enable for only current playing song!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Use: \`/loop\` [disable](https://diwasatreya.tech/github) to disable loop in a music.`)
+       const ltrack = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeloop")} **Loop is enable for only current playing song!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Use: \`/loop\` [disable](https://aromaxdev.xyz/github) to disable loop in a music.`)
   .setColor(`#FFFFFF`);
 
-      const lqueue = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeloop")} **Loop is enable for a whole queue!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Use: \`/loop\` [disable](https://diwasatreya.tech/github) to disable loop in a music.`)
+      const lqueue = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeloop")} **Loop is enable for a whole queue!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Use: \`/loop\` [disable](https://aromaxdev.xyz/github) to disable loop in a music.`)
   .setColor(`#FFFFFF`);
 
-      const ldisable = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeloop")} **Loop is disabled!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Use: \`/loop\` [track/queue](https://diwasatreya.tech/github) to loop a music.`)
+      const ldisable = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeloop")} **Loop is disabled!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Use: \`/loop\` [track/queue](https://aromaxdev.xyz/github) to loop a music.`)
   .setColor(`#FFFFFF`);
       
     const mode = int.options.getString("mode");

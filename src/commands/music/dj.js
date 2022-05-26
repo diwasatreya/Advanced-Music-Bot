@@ -71,7 +71,7 @@ module.exports = class Roles extends Interaction {
             data.djRoles.push(role.id);
             await data.save();
 
-const djadded = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeadd")} **Added <@&${role.id}> role to the DJ roles list!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Use: \`/play\` [song/url](https://diwasatreya.tech/github) to play a music.`)
+const djadded = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeadd")} **Added <@&${role.id}> role to the DJ roles list!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Use: \`/play\` [song/url](https://aromaxdev.xyz/github) to play a music.`)
   .setColor(`#FFFFFF`);
           
             return int.reply({
@@ -101,7 +101,7 @@ const djadded = new MessageEmbed() .setDescription(`${this.client.emotes.get("su
           data.djRoles.splice(index, 1);
           await data.save();
 
-const djremove = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeremove")} **Removed <@&${role.id}> role from the DJ roles list!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Tips: Any help needed? [Join our Server](https://diwasatreya.tech/discord)`)
+const djremove = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeremove")} **Removed <@&${role.id}> role from the DJ roles list!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Tips: Any help needed? [Join our Server](https://aromaxdev.xyz/discord)`)
   .setColor(`#FFFFFF`);
           
           return int.reply({

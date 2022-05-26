@@ -27,19 +27,19 @@ module.exports = class Pause extends Interaction {
       .setLabel("Youtube")
       .setStyle("LINK")
       .setEmoji(`954345443440082984`)
-      .setURL(`https://diwasatreya.tech/youtube`);
+      .setURL(`https://aromaxdev.xyz/youtube`);
 
     const btn4 = new MessageButton()
       .setLabel("Github")
       .setStyle("LINK")
       .setEmoji(`954351028873068615`)
-      .setURL(`https://diwasatreya.tech/github`);
+      .setURL(`https://aromaxdev.xyz/github`);
 
     let buttonList = [btn1, btn2, btn3, btn4];
     const row = new MessageActionRow().addComponents(buttonList);
 
 
-    const invite = new MessageEmbed().setDescription(`${this.client.emotes.get("supremelink")} **Click the button to redirect and also follow me on github** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://diwasatreya.tech/github)`)
+    const invite = new MessageEmbed().setDescription(`${this.client.emotes.get("supremelink")} **Click the button to redirect and also follow me on github** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://aromaxdev.xyz/github)`)
       .setColor(`#FFFFFF`);
 
 
