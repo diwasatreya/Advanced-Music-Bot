@@ -49,13 +49,13 @@ module.exports = class Fav extends Interaction {
     }
     async exec(int, data) {
 
-const novc = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremenomusic")} **You should be in a voice channel!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://aromaxdev.xyz/github)`)
+const novc = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremenomusic")} **You should be in a voice channel!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Atreya#2401](https://aromaxdev.xyz/github)`)
   .setColor(`#FFFFFF`);
 
-      const novcs = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremenomusic")} **You should be in a my voice channel!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://aromaxdev.xyz/github)`)
+      const novcs = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremenomusic")} **You should be in a my voice channel!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Atreya#2401](https://aromaxdev.xyz/github)`)
   .setColor(`#FFFFFF`);
 
-      const nodj = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremedj")} **You should be a DJ or Alone in Voice Channel!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://aromaxdev.xyz/github)`)
+      const nodj = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremedj")} **You should be a DJ or Alone in Voice Channel!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Atreya#2401](https://aromaxdev.xyz/github)`)
   .setColor(`#FFFFFF`);
 
       const nomusic = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremenomusic")} **Nothing is playing in this server!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Use: \`/play\` [song/url](https://aromaxdev.xyz/github) to play a music.`)
@@ -139,7 +139,7 @@ const sadded = new MessageEmbed() .setDescription(`${this.client.emotes.get("sup
 
             let old = user.savedSongs.find((s, i) => i === index - 1);
 
-const noplay = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeserror")} **This song is not in your playlist!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://discord.gg/whJeF4mDAX).`)
+const noplay = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeserror")} **This song is not in your playlist!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Atreya#2401](https://discord.gg/whJeF4mDAX).`)
   .setColor(`#FFFFFF`);
           
             if (!old)
@@ -152,7 +152,7 @@ const noplay = new MessageEmbed() .setDescription(`${this.client.emotes.get("sup
             await user.save();
 
 
-const sremoved = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeremove")} **Removed __${old.name.split(' ').slice(0, 5).join(' ')}__ from your playlist!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://discord.gg/whJeF4mDAX).`)
+const sremoved = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeremove")} **Removed __${old.name.split(' ').slice(0, 5).join(' ')}__ from your playlist!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Atreya#2401](https://discord.gg/whJeF4mDAX).`)
   .setColor(`#FFFFFF`);
           
             return int.editReply({
@@ -241,7 +241,7 @@ const sremoved = new MessageEmbed() .setDescription(`${this.client.emotes.get("s
                         ephemeral: false,
                     });
 
-const done = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeplay")} **Playing __${sng.name.split(' ').slice(0, 5).join(' ')}__!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://discord.gg/whJeF4mDAX).`)
+const done = new MessageEmbed() .setDescription(`${this.client.emotes.get("supremeplay")} **Playing __${sng.name.split(' ').slice(0, 5).join(' ')}__!** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Atreya#2401](https://discord.gg/whJeF4mDAX).`)
   .setColor(`#FFFFFF`);
           
                 await int.editReply({

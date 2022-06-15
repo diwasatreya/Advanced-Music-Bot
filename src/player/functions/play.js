@@ -26,7 +26,7 @@ module.exports = async function play(
     await queue.join(channel).catch((err) => {
 
 
-const nojoin = new MessageEmbed() .setDescription(`${client.emotes.get("supremenomusic")} ** I Couldn't Join The Voice Channel!** \n ${client.emotes.get("supremeblank")}${client.emotes.get("supremelink")} Support: [Server](https://diwasatreya.tech/discord)`)
+const nojoin = new MessageEmbed() .setDescription(`${client.emotes.get("supremenomusic")} ** I Couldn't Join The Voice Channel!** \n ${client.emotes.get("supremeblank")}${client.emotes.get("supremelink")} Support: [Server](https://aromaxdev.xyz/discord)`)
   .setColor(`#FFFFFF`);
       
         if (search) {
@@ -60,7 +60,7 @@ const nojoin = new MessageEmbed() .setDescription(`${client.emotes.get("supremen
                     queue.stop();
                 }
             });
-const noplayl = new MessageEmbed() .setDescription(`${client.emotes.get("supremeno")} ** I couldn't found that playlist!** \n ${client.emotes.get("supremeblank")}${client.emotes.get("supremelink")} Support: [Server](https://diwasatreya.tech/discord)`)
+const noplayl = new MessageEmbed() .setDescription(`${client.emotes.get("supremeno")} ** I couldn't found that playlist!** \n ${client.emotes.get("supremeblank")}${client.emotes.get("supremelink")} Support: [Server](https://aromaxdev.xyz/discord)`)
   .setColor(`#FFFFFF`);
       
         if (!pl) return int.channel.send({
@@ -79,7 +79,7 @@ const noplayl = new MessageEmbed() .setDescription(`${client.emotes.get("supreme
                     }
                 });
 
-          const nosongg = new MessageEmbed() .setDescription(`${client.emotes.get("supremeno")} ** I couldn't found that song!** \n ${client.emotes.get("supremeblank")}${client.emotes.get("supremelink")} Support: [Join Server](https://diwasatreya.tech/discord)`)
+          const nosongg = new MessageEmbed() .setDescription(`${client.emotes.get("supremeno")} ** I couldn't found that song!** \n ${client.emotes.get("supremeblank")}${client.emotes.get("supremelink")} Support: [Join Server](https://aromaxdev.xyz/discord)`)
   .setColor(`#FFFFFF`);
             if (!song) return int.channel.send({
               embeds:[nosongg],
@@ -94,7 +94,7 @@ const noplayl = new MessageEmbed() .setDescription(`${client.emotes.get("supreme
                     queue.stop();
                 }
             });
-          const nosonggg = new MessageEmbed() .setDescription(`${client.emotes.get("supremeno")} ** I couldn't found that song!** \n ${client.emotes.get("supremeblank")}${client.emotes.get("supremelink")} Support: [Join Server](https://diwasatreya.tech/discord)`)
+          const nosonggg = new MessageEmbed() .setDescription(`${client.emotes.get("supremeno")} ** I couldn't found that song!** \n ${client.emotes.get("supremeblank")}${client.emotes.get("supremelink")} Support: [Join Server](https://aromaxdev.xyz/discord)`)
   .setColor(`#FFFFFF`);
             if (!song) return int.channel.send({
               embeds:[nosonggg],

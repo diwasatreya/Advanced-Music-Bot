@@ -39,7 +39,7 @@ module.exports = class Pause extends Interaction {
     const row = new MessageActionRow().addComponents(buttonList);
 
 
-    const invite = new MessageEmbed().setDescription(`${this.client.emotes.get("supremelink")} **Click the button to redirect and also follow me on github** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Supreme#2401](https://aromaxdev.xyz/github)`)
+    const invite = new MessageEmbed().setDescription(`${this.client.emotes.get("supremelink")} **Click the button to redirect and also follow me on github** \n ${this.client.emotes.get("supremeblank")}${this.client.emotes.get("supremedot")} Developer: [Atreya#2401](https://aromaxdev.xyz/github)`)
       .setColor(`#FFFFFF`);
 
 
